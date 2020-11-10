@@ -3,7 +3,10 @@ h1 {
   color:yellowgreen;
    
 }
-p {text-align: center;}
+h2 {
+  color:red;
+}
+p {text-align: left;}
 div {text-align: center;}
 
  
@@ -54,3 +57,34 @@ div {text-align: center;}
     img{
         width: 100px;
     }
+    
+/* unvisited link */
+a:link {
+  color: red;
+  background-color:yellow;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+  background-color:white;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+ 
+/* selected link */
+a:active {
+  color: blue;
+}    
+ 
+p:hover{
+   background-color:#da53538a;
+}    
+h1:hover{
+   background-color:#da53538a;
+}
+}
+}
