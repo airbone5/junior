@@ -13,15 +13,22 @@
       }
       function reset(){
        clearInterval(handle)  
+       console.log("你點擊到幾次："+ hitcount)
       }
       function restart(){
-        handle=setInterval(monkey,2000)    
+        handle=setInterval(monkey,1000)    
       }
-      
+      var hitcount=0;
+      function hit(e){
+        
+        if(e.src=="file:///C:/temp/junior/img/o.png") {
+          hitcount=hitcount+1;
+        }
+      }
       
       
     </script>
-    <img id="img1" src="img/o.png" style="height:80px;wide=80px">
+    <img id="img1" src="img/o.png" style="height:80px;wide=80px" onclick="hit(this)">
     <br/>
     <input type="button" value="開始" onclick="restart()">
     <input type="button" value="結束" onclick="reset()">
