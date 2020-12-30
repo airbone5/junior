@@ -1,13 +1,14 @@
 h1 {
   text-align: center;
   color:yellowgreen;
-   
+font-size:xxx-large  ;   
 }
 h2 {
   color:red;
+  font-size:xxx-large  ;
 }
-p {text-align: left;}
-div {text-align: center;}
+
+/* div {text-align: center;}*/
 
  
      div.top{
@@ -46,16 +47,18 @@ div {text-align: center;}
      } 
      p{
        font-size:large;
-      padding-top: 0px;
-      padding-right: 20px;
-      padding-bottom: 0px;
-      padding-left: 20px;      
-       
+       text-align:center;
      }
+a{
+font-size:large  ;  
+} 
       
   
     img{
-        width: 100px;
+    width: 70%;
+    margin: auto;
+    display: block;
+        
     }
     
 /* unvisited link */
@@ -79,12 +82,11 @@ a:hover {
 a:active {
   color: blue;
 }    
+
  
-p:hover{
-   background-color:#da53538a;
-}    
-h1:hover{
-   background-color:#da53538a;
+ul {
+    width: 70%;
+    margin: auto;
+    display:block;
 }
-}
-}
+ 
